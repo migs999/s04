@@ -102,3 +102,56 @@ db.getCollection('inventory').find({})
 
 
 db.getCollection('items').find({})
+
+
+
+
+
+
+
+db.getCollection('courses').find({})
+
+/* 1 */
+{
+    "_id" : ObjectId("63445056ae9142a8678aba2d"),
+    "name" : "HTML Basics",
+    "price" : 20000,
+    "isActive" : "true",
+    "instructor" : "Sir Alvin"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("63445056ae9142a8678aba30"),
+    "name" : "CSS 101 + Flexbox",
+    "price" : 21000,
+    "isActive" : "true",
+    "instructor" : "Sir Alvin"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("63445056ae9142a8678aba33"),
+    "name" : "Javascript 101",
+    "price" : 32000,
+    "isActive" : "true",
+    "instructor" : "Ma'am Tine"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("63445058ae9142a8678aba36"),
+    "name" : "Git 101, IDE and CLI",
+    "price" : 19000,
+    "isActive" : "false",
+    "instructor" : "Ma'am Tine"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("63445058ae9142a8678aba39"),
+    "name" : "React.Js 101",
+    "price" : 25000,
+    "isActive" : "true",
+    "instructor" : "Ma'am Miah"
+}
